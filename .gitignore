@@ -263,3 +263,21 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,python,jupyternotebooks,visualstudiocode
+
+# Ignore generated plots
+plots/
+*.png
+*.jpg
+
+# Model files
+models/
+*.pkl
+*.joblib
+
+# Jupyter stuff
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
